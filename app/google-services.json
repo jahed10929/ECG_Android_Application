@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "857141189529",
+    "project_id": "ecg-reader-9dc64",
+    "storage_bucket": "ecg-reader-9dc64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857141189529:android:63909bd9db91c5e6b89108",
+        "android_client_info": {
+          "package_name": "com.ecgreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857141189529-3oarfv1udald244a529mnokcojpp8sv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvJ27xvk4Pcrg20n3mc72-xoV92gDnBTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857141189529-3oarfv1udald244a529mnokcojpp8sv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgrund_color">
+    <!--todo this is for history view-->
+    <include layout="@layout/toolbar_layout"/>
+    <include
+        layout="@layout/lyt_user_data"
+        android:layout_below="@+id/toolbar"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/report_bottom_lyt1"/>
+    <include
+        layout="@layout/lyt_report_result"
+        android:layout_below="@+id/toolbar"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/report_bottom2"/>
+
+
+    <include
+        layout="@layout/report_bottom_lyt1"
+        android:id="@+id/report_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <include
+        layout="@layout/report_bottom_lyt2"
+        android:id="@+id/report_bottom2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
